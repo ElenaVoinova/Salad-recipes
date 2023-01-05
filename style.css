@@ -1,0 +1,187 @@
+body {
+    background-image: url(5268821.jpg);
+    backdrop-filter: blur(5px);
+    background-size: 100%;
+} 
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.photo {
+    padding: 10px;
+}
+
+.input {
+    padding: 15px;
+}
+
+input {
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 20%;
+    border-color: rgb(0, 162, 255);
+    font-family: 'Caveat', cursive;
+}
+
+label {
+    color: rgb(80, 74, 74);
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    text-transform: uppercase;
+    background: linear-gradient(to left, red, blue, green, #FFE61B, brown);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding: 5px;
+}
+
+.heading-middle {
+    font-family: 'Caveat', cursive;
+    align-self: center;
+    text-transform: uppercase;
+    color: blue;
+    font-size: 25px;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px;
+}
+
+span {
+    color: blue;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+
+.par {
+    display: flex;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    background-color: rgb(142, 194, 142);
+    flex:1;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(173, 202, 173);
+    margin: 30px;
+}
+
+.img {
+    align-self: center;
+}
+
+h2 {
+    align-self: center;
+    color: blue;
+    text-transform: uppercase;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(173, 202, 173);
+    margin-top: 20px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+
+.about-center {
+    align-self: center;
+    font-size: 11px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.produced  {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(142, 194, 142);
+    margin-bottom: 60px;
+    font-family: 'Caveat', cursive;
+}
+
+.anchor {
+    padding: 5px;
+    font-size: 15px;
+    color: blue;
+}
+
+@media all and (max-width: 900px) {
+
+    body {
+        background-image: none;
+        background-color: rgb(190, 207, 190);;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .photo, .img {
+        width: 95%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .heading-middle {
+        font-size: 20px;
+    }
+
+    .par {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+}
